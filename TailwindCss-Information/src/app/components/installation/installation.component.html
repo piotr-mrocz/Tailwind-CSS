@@ -1,1 +1,43 @@
-<p>installation works!</p>
+<section>
+   <h1 class="text-3xl flex items-center justify-center mt-5">Instalacja Tailwind CSS (Angular)</h1> 
+   <h5 class="text-3m flex items-center justify-center mt-1">
+       <a 
+            href="https://www.amadousall.com/how-to-add-tailwind-css-to-your-angular-application/" 
+            target=_blank
+            class="hover:text-teal-500">
+            Dane zaczerpniete ze strony
+        </a>
+    </h5>
+</section>
+
+<section class="border border-orange-700">
+    <ul>
+        <li> Instalacja potrzebnych paczek: 
+            <ul>
+                <li>npm install postcss --save-dev</li>
+                <li>npm install tailwindcss</li>
+            </ul>
+        </li>
+        <li> Tworzenie pliku tailwind.config.js
+            <ul>
+                <li>npx tailwind init</li>
+            </ul>
+        </li>
+        <li>
+            module.exports = {
+                content: ['./src/**/*.{html,ts}', './projects/**/*.{html,ts}'],
+                theme: {
+                  extend: {},
+                },
+                plugins: [],
+            };
+        </li>
+        <li> Dodanie dyrektyw do pliku css (src/style.css)
+            <ul>
+                <li>@tailwind base;</li>
+                <li>@tailwind components;</li>
+                <li>@tailwind utilities;</li>
+            </ul>
+        </li>
+    </ul>
+</section>
