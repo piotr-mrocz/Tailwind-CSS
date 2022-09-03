@@ -7,6 +7,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { InstallationComponent } from './components/installation/installation.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { ColorsComponent } from './components/colors/colors.component';
+import { GradientComponent } from './components/gradient/gradient.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ColorsComponent } from './components/colors/colors.component';
     InstallationComponent,
     PageNotFoundComponent,
     ColorsComponent,
+    GradientComponent,
   ],
   imports: [
     BrowserModule,
