@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { InstallationComponent } from './components/installation/installation.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ColorsComponent } from './components/colors/colors.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     NavComponent,
     InstallationComponent,
     PageNotFoundComponent,
+    ColorsComponent,
   ],
   imports: [
     BrowserModule,
