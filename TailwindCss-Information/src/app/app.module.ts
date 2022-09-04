@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { ColorsComponent } from './components/colors/colors.component';
 import { GradientComponent } from './components/gradient/gradient.component';
 import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
+import { AlignComponent } from './components/align/align.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PaddingAndMarginComponent } from './components/padding-and-margin/paddi
     ColorsComponent,
     GradientComponent,
     PaddingAndMarginComponent,
+    AlignComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { ColorsComponent } from './components/colors/colors.component';
 import { GradientComponent } from './components/gradient/gradient.component';
 import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
+import { AlignComponent } from './components/align/align.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/installation', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'colors', component: ColorsComponent },
   { path: 'gradient', component: GradientComponent },
   { path: 'padding-and-margin', component: PaddingAndMarginComponent },
+  { path: 'align', component: AlignComponent },
   {path: '**', component: PageNotFoundComponent}
 ];
 
