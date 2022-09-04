@@ -10,6 +10,7 @@ import { ColorsComponent } from './components/colors/colors.component';
 import { GradientComponent } from './components/gradient/gradient.component';
 import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
 import { AlignComponent } from './components/align/align.component';
+import { TextStyleComponent } from './components/text-style/text-style.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AlignComponent } from './components/align/align.component';
     GradientComponent,
     PaddingAndMarginComponent,
     AlignComponent,
+    TextStyleComponent,
   ],
   imports: [
     BrowserModule,
