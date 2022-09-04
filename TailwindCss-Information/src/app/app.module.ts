@@ -8,6 +8,7 @@ import { InstallationComponent } from './components/installation/installation.co
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { ColorsComponent } from './components/colors/colors.component';
 import { GradientComponent } from './components/gradient/gradient.component';
+import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { GradientComponent } from './components/gradient/gradient.component';
     PageNotFoundComponent,
     ColorsComponent,
     GradientComponent,
+    PaddingAndMarginComponent,
   ],
   imports: [
     BrowserModule,
