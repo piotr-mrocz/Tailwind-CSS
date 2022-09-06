@@ -7,6 +7,7 @@ import { GradientComponent } from './components/gradient/gradient.component';
 import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
 import { AlignComponent } from './components/align/align.component';
 import { TextStyleComponent } from './components/text-style/text-style.component';
+import { RoundedComponent } from './components/rounded/rounded.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/installation', pathMatch: 'full' },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'padding-and-margin', component: PaddingAndMarginComponent },
   { path: 'align', component: AlignComponent },
   { path: 'text-style', component: TextStyleComponent },
+  { path: 'rounded', component: RoundedComponent },
   {path: '**', component: PageNotFoundComponent}
 ];
 

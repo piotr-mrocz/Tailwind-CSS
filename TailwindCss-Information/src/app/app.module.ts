@@ -11,6 +11,7 @@ import { GradientComponent } from './components/gradient/gradient.component';
 import { PaddingAndMarginComponent } from './components/padding-and-margin/padding-and-margin.component';
 import { AlignComponent } from './components/align/align.component';
 import { TextStyleComponent } from './components/text-style/text-style.component';
+import { RoundedComponent } from './components/rounded/rounded.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TextStyleComponent } from './components/text-style/text-style.component
     PaddingAndMarginComponent,
     AlignComponent,
     TextStyleComponent,
+    RoundedComponent,
   ],
   imports: [
     BrowserModule,
