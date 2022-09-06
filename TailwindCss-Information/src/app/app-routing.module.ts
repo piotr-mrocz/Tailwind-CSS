@@ -8,6 +8,7 @@ import { PaddingAndMarginComponent } from './components/padding-and-margin/paddi
 import { AlignComponent } from './components/align/align.component';
 import { TextStyleComponent } from './components/text-style/text-style.component';
 import { RoundedComponent } from './components/rounded/rounded.component';
+import { ListsComponent } from './components/lists/lists.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/installation', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'align', component: AlignComponent },
   { path: 'text-style', component: TextStyleComponent },
   { path: 'rounded', component: RoundedComponent },
+  { path: 'lists', component: ListsComponent },
   {path: '**', component: PageNotFoundComponent}
 ];
 

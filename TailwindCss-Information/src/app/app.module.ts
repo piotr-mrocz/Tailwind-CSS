@@ -12,6 +12,7 @@ import { PaddingAndMarginComponent } from './components/padding-and-margin/paddi
 import { AlignComponent } from './components/align/align.component';
 import { TextStyleComponent } from './components/text-style/text-style.component';
 import { RoundedComponent } from './components/rounded/rounded.component';
+import { ListsComponent } from './components/lists/lists.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RoundedComponent } from './components/rounded/rounded.component';
     AlignComponent,
     TextStyleComponent,
     RoundedComponent,
+    ListsComponent,
   ],
   imports: [
     BrowserModule,
