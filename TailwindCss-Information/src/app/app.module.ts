@@ -14,6 +14,7 @@ import { TextStyleComponent } from './components/text-style/text-style.component
 import { RoundedComponent } from './components/rounded/rounded.component';
 import { ListsComponent } from './components/lists/lists.component';
 import { ShadowsComponent } from './components/shadows/shadows.component';
+import { ResponsiveComponent } from './components/responsive/responsive.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ShadowsComponent } from './components/shadows/shadows.component';
     RoundedComponent,
     ListsComponent,
     ShadowsComponent,
+    ResponsiveComponent,
   ],
   imports: [
     BrowserModule,

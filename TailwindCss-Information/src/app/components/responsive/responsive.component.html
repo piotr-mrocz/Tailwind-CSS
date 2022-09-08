@@ -1,0 +1,75 @@
+<div class="text-teal-200">
+    <section class="text-white">
+        <h1 class="text-3xl flex items-center justify-center mt-5">Responsywność</h1> 
+     </section>
+
+     <section class="w-full flex items-center justify-center text-white">
+        <div class="border border-orange-700 mt-10 w-3/5 p-4 bg-slate-800 rounded flex items-center justify-center">
+            <table class="table-auto border border-orange-700 p-3">
+                <thead class="border border-orange-700 p-3">
+                  <tr class="border border-orange-700 p-3">
+                    <th class="border border-orange-700 p-3">Klasa</th>
+                    <th class="border border-orange-700 p-3">Minimalna szerokość [px]</th>
+                  </tr>
+                </thead>
+                <tbody class="border border-orange-700 p-3">
+                  <tr>
+                    <td class="border border-orange-700 p-3">sm</td>
+                    <td class="border border-orange-700 p-3">640</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-orange-700 p-3">md</td>
+                    <td class="border border-orange-700 p-3">768</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-orange-700 p-3">lg</td>
+                    <td class="border border-orange-700 p-3">1024</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-orange-700 p-3">xl</td>
+                    <td class="border border-orange-700 p-3">1280</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-orange-700 p-3">2xl</td>
+                    <td class="border border-orange-700 p-3">1536</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </section>
+
+     <section class="w-full flex items-center justify-center text-white mb-5">
+        <div class="border border-orange-700 mt-10 w-3/5 p-4 bg-slate-800 rounded">
+           <p class="indent-8">
+                Tailwind CSS domyślnie używa podejścia <span class="text-orange-400">Mobile First</span>. Co oznacza, że stylizacja domyślnie odnosić się będzie 
+                do najniższej szerokości urządzień - telefonów. W skrócie to, co zostało wystylizowane będzie dotyczyć absolutnie każdej szerokości. 
+           </p>
+
+           <p class="indent-8 mt-5">
+               Można jedna jawnie zadeklarować stylizację poszczególnych elementów dla konkretnych szerokości ekranu urządzenia. Można zadeklarować ułożenie w jednym
+               rzędzie dla komputerów, a jednocześnie te same elemnty można ułożyć blokowo (jeden pod drugim) jeśli stronę będziemy przeglądać na mniejszych urządzaniach.
+           </p>
+
+           <div class="mt-5 flex items-center justify-center">
+            <ul>
+                <li>
+                    <ol class="mt-4">
+                        <li>class="text-lg" - stylizacja dla wszystkich szerokości</li>
+                        <li><span class="text-lg">Stylizowany tekst</span></li>
+                    </ol>
+                </li>
+                <li class="mt-6">
+                    <ol class="mt-4">
+                        <li>class="sm:text-sm - od szerokości urządzenia <span class="text-orange-400">640px</span> do <span class="text-orange-400">767px</span></li>
+                        <li>       md:text-md - od szerokości urządzenia <span class="text-orange-400">768px</span> do <span class="text-orange-400">1023px</span></li>
+                        <li>       lg:text-lg - od szerokości urządzenia <span class="text-orange-400">1024px</span> do <span class="text-orange-400">1279px</span></li>
+                        <li>       xl:text-xl - od szerokości urządzenia <span class="text-orange-400">1280px</span> do <span class="text-orange-400">1535px</span></li>
+                        <li>       2xl:text-2xl" - od szerokości urządzenia <span class="text-orange-400">1536px</span></li>
+                        <li><span class="text-lg">Stylizowany tekst</span></li>
+                    </ol>
+                </li>
+               </ul>
+           </div>
+        </div>
+    </section>
+</div>

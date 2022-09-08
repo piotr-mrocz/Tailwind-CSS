@@ -10,6 +10,7 @@ import { TextStyleComponent } from './components/text-style/text-style.component
 import { RoundedComponent } from './components/rounded/rounded.component';
 import { ListsComponent } from './components/lists/lists.component';
 import { ShadowsComponent } from './components/shadows/shadows.component';
+import { ResponsiveComponent } from './components/responsive/responsive.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/installation', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'rounded', component: RoundedComponent },
   { path: 'lists', component: ListsComponent },
   { path: 'shadows', component: ShadowsComponent },
+  { path: 'responsive', component: ResponsiveComponent },
   {path: '**', component: PageNotFoundComponent}
 ];
 
