@@ -15,6 +15,7 @@ import { RoundedComponent } from './components/rounded/rounded.component';
 import { ListsComponent } from './components/lists/lists.component';
 import { ShadowsComponent } from './components/shadows/shadows.component';
 import { ResponsiveComponent } from './components/responsive/responsive.component';
+import { NavHamburgerComponent } from './components/nav-hamburger/nav-hamburger.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ResponsiveComponent } from './components/responsive/responsive.componen
     ListsComponent,
     ShadowsComponent,
     ResponsiveComponent,
+    NavHamburgerComponent,
   ],
   imports: [
     BrowserModule,

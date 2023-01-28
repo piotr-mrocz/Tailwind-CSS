@@ -11,6 +11,7 @@ import { RoundedComponent } from './components/rounded/rounded.component';
 import { ListsComponent } from './components/lists/lists.component';
 import { ShadowsComponent } from './components/shadows/shadows.component';
 import { ResponsiveComponent } from './components/responsive/responsive.component';
+import { NavHamburgerComponent } from './components/nav-hamburger/nav-hamburger.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/installation', pathMatch: 'full' },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'lists', component: ListsComponent },
   { path: 'shadows', component: ShadowsComponent },
   { path: 'responsive', component: ResponsiveComponent },
+  { path: 'nav-hamburger', component: NavHamburgerComponent },
   {path: '**', component: PageNotFoundComponent}
 ];
 
