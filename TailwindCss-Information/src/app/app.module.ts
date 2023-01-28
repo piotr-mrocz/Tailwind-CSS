@@ -16,6 +16,7 @@ import { ListsComponent } from './components/lists/lists.component';
 import { ShadowsComponent } from './components/shadows/shadows.component';
 import { ResponsiveComponent } from './components/responsive/responsive.component';
 import { NavHamburgerComponent } from './components/nav-hamburger/nav-hamburger.component';
+import { ContainerComponent } from './components/container/container.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { NavHamburgerComponent } from './components/nav-hamburger/nav-hamburger.
     ShadowsComponent,
     ResponsiveComponent,
     NavHamburgerComponent,
+    ContainerComponent,
   ],
   imports: [
     BrowserModule,
